@@ -36,7 +36,7 @@ CLIENT_BIN="./firestorm"
 
 # tor / ssh proxy
 SSH_USER="[REDACTED]"
-SSH_HOST="[REDACTED].linode.com"
+SSH_HOST="[REDACTED]"
 TUNNEL_PORT=9050
 KILL_EXISTING_TUNNEL=true
 PROXYCHAINS_BIN="proxychains4"

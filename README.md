@@ -10,8 +10,12 @@ They blocked my IP after the publication of this [research](https://gist.github.
 
 So, these scripts can be used by those who also got their IP blocked and still willing to go to the virtual world without being blocked anymore.
 
+Some others has been added later for different needs related to SL (Second Life).
+
 ## Requirements
 
+* [sl-backup.sh](sl-backup.sh):
+  * `tar`, `xz` and `jq` installed on your machine
 * [sl-novpn.sh](sl-novpn.sh): none
 * [sl-proxy-ssh.sh](sl-proxy-ssh.sh):
   * `proxychains` installed on your machine
@@ -47,4 +51,4 @@ VPN_BIN="protonvpn-cli"
 
 ## Author
 
-[Jiab77](https://twitter.com/jiab77)
+* __Jiab77__

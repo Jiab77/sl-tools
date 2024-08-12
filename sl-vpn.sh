@@ -2,10 +2,11 @@
 clear
 
 # Options
-set -o xtrace
+[[ -r $HOME/.debug ]] && set -o xtrace || set +o xtrace
 
 # Config
-source sl.conf
+BASE=`dirname $(realpath $0)`
+source "${BASE}/sl.conf"
 
 # Check
 if [[ $CLIENT_DIR == "" || $CLIENT_BIN == "" ]]; then
